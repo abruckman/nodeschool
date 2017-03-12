@@ -11,7 +11,7 @@ module.exports = function(directory, suffix, callback){
           results.push(file)
         }
       })
-      callback(null, data)
+      callback(null, results)
     }
   })
 }
